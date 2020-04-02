@@ -9,7 +9,7 @@ def index():
 
 @app.route("/about")
 def about():
-    return "<h1 style='color: turquoise'> MORE  About !!!</h1>"
+    return "<h1 style='color: cyan'> MORE  About !!!</h1>"
 
 if __name__ == "__main__":
     app.run(debug=True)
